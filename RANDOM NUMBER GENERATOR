@@ -1,0 +1,6 @@
+prompt("enter your name");
+prompt("enter another name");
+var n=Math.random();
+n=n*100;
+n=Math.floor(n)+1;
+alert("your bonding percentage is "+n);
