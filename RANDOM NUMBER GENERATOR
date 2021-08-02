@@ -1,6 +1,13 @@
 prompt("enter your name");
-prompt("enter another name");
+prompt("enter your crush's name");
 var n=Math.random();
 n=n*100;
 n=Math.floor(n)+1;
-alert("your bonding percentage is "+n);
+if(n==100)
+{
+    alert("you have a amzing bond "+n+"%");
+}
+else
+{
+alert(n+"%");
+}
